@@ -33,7 +33,7 @@ public class ApiGatewayController {
 	 * 画像取得画面を表示する
 	 * @return 画像取得画面のテンプレート名
 	 */
-	@GetMapping("/")
+	@GetMapping("/getImageSoap")
 	public String showLoginForm() {
 		return "getImage";
 	}
