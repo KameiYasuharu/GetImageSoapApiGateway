@@ -138,3 +138,9 @@ button:hover {
 .error {
 	color: red;
 }
+
+
+#status {
+	margin-top: 15px;
+	color: #666;
+}
